@@ -5,6 +5,9 @@ This package will convert data exported from the IOS Health app to a InfluxDB da
 
 ```importer.py IMPORT_PATH INFLUX_HOST INFLUX_USER INFLUX_PASS```
 
+To use prebuilt docker image:
+```docker pull skomil/applehealth-importer```
+
 Properties:
 
 * IMPORT_PATH: Directory where export.zip file is located.
